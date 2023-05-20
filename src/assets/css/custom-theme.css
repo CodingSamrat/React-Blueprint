@@ -1,0 +1,174 @@
+:root{
+    --color-light: #e0e0e0 ;
+    --color-dark: #1e1e1e ;
+    
+    --color-success: #368431;
+    --color-danger: #ff3333;
+    --color-info: #00f2ff;
+    
+    --color-primary: #1f6feb ;
+    --color-secondery: #fae318 ;
+    --color-cta: #e811ef ;
+    
+    /* Darker tone */
+    --color-light-h: #c4c2c2 ;
+    --color-dark-h: #333333 ;
+    
+    --color-success-h: #366433;
+    --color-danger-h: #e42c2c;
+    --color-info-h: #05b7c1;
+
+    --color-primary-h: #1f65cd ;
+    --color-secondery-h: #efdb1e ;
+    --color-cta-h: #cc0fd2 ;
+}
+
+
+
+/* Text --colors */
+.--color-light{color: var(--color-light)!important;}
+
+.--color-dark{color: var(--color-dark)!important;}
+
+.--color-primary{color: var(--color-primary)!important;}
+
+.--color-secondary{color: var(--color-secondery)!important;}
+
+.--color-success{color: var(--color-success)!important;}
+
+.--color-danger{color: var(--color-danger)!important;}
+
+.--color-info{color: var(--color-info)!important;}
+
+.--color-cta{color: var(--color-cta)!important;}
+
+
+/*  BACKGROUND --color */
+.bg-light{background-color: var(--color-light)!important;}
+
+.bg-dark{background-color: var(--color-dark)!important;}
+
+.bg-primary{background-color: var(--color-primary)!important;}
+
+.bg-secondary{background-color: var(--color-secondery)!important;}
+
+.bg-success{background-color: var(--color-success)!important;}
+
+.bg-danger{background-color: var(--color-danger)!important;}
+
+.bg-info{background-color: var(--color-info)!important;}
+
+.bg-cta{background-color: var(--color-cta)!important;}
+
+
+
+/* Buttons */
+.btn{
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .30)!important;
+    font-size: 1rem;
+}
+
+.btn-sm{
+    padding: .3rem .6rem;
+    font-size: .9rem;
+}
+
+
+
+.btn-light{
+    background-color: var(--color-light)!important;
+    color: var(--color-dark)!important;
+}
+.btn-light:hover{
+    background-color: var(--color-light-h)!important;
+    color: var(--color-dark)!important;
+}
+
+.btn-dark{
+    background-color: var(--color-dark)!important;
+    color: var(--color-light)!important;
+}
+.btn-dark:hover{
+    background-color: var(--color-dark-h)!important;
+    color: var(--color-light)!important;
+}
+
+.btn-primary{
+    background-color: var(--color-primary)!important;
+    color: var(--color-light)!important;
+}
+.btn-primary:hover{
+    background-color: var(--color-primary-h)!important;
+    color: var(--color-light)!important;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondery)!important;
+    color: var(--color-dark)!important;
+}
+.btn-secondary:hover{
+    background-color: var(--color-secondery-h)!important;
+    color: var(--color-dark)!important;
+}
+
+.btn-success{
+    background-color: var(--color-success)!important;
+    color: var(--color-light)!important;
+}
+.btn-success:hover{
+    background-color: var(--color-success-h)!important;
+    color: var(--color-light)!important;
+}
+
+.btn-danger{
+    background-color: var(--color-danger)!important;
+    color: var(--color-light)!important;
+}
+.btn-danger:hover{
+    background-color: var(--color-danger-h)!important;
+    color: var(--color-light)!important;
+}
+
+.btn-info{
+    background-color: var(--color-info)!important;
+    color: var(--color-light)!important;
+}
+.btn-info:hover{
+    background-color: var(--color-info-h)!important;
+    color: var(--color-light)!important;
+}
+
+.btn-info{
+    background-color: var(--color-info)!important;
+    color: var(--color-dark)!important;
+}
+.btn-info:hover{
+    background-color: var(--color-info-h)!important;
+    color: var(--color-dark)!important;
+}
+
+.btn-cta{
+    background-color: var(--color-cta)!important;
+    color: var(--color-dark)!important;
+}
+.btn-cta:hover{
+    background-color: var(--color-cta-h)!important;
+    color: var(--color-dark-h)!important;
+}
+
+
+/* Container */
+
+  .container-mid {
+    width: 60%;
+  }
+  
+  .container-sm {
+    width: 50%;
+  }

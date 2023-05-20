@@ -1,0 +1,70 @@
+:root{
+    --width: 20rem;
+    --bg-success: rgb(216, 254, 228);
+    --color-success: rgb(0, 171, 31);
+
+    --bg-error: rgb(250, 217, 217);
+    --color-error: rgb(246, 5, 5);
+
+    --bg-warning: rgb(250, 253, 183);
+    --color-warning: rgb(116, 122, 1);
+
+    --bg-info: rgb(217, 246, 250);
+    --color-info: rgb(2, 74, 92);
+    
+}
+
+@keyframes in-out{
+    0%{
+        top: 0;
+    }
+    20%{
+        top: 4rem;
+    }
+    80%{
+        top: 4rem;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+.alert-container{
+    width: var(--width);
+    position: absolute;
+    top: 4rem;
+    padding: 0;
+    left: calc(50% - (var(--width)/2));
+
+}
+
+.alert{
+    animation: in-out 2.5s;
+    border: 1px solid;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    padding: .5rem 0;
+    margin-top: .5rem;
+    border-radius: 3px;
+}
+
+.alert-error{
+    background-color: var(--bg-error);
+    color: var(--color-error);
+}
+
+.alert-success{
+    background-color: var(--bg-success);
+    color: var(--color-success);
+}
+
+.alert-warning{
+    background-color: var(--bg-warning);
+    color: var(--color-warning);
+}
+
+.alert-info{
+    background-color: var(--bg-info);
+    color: var(--color-info);
+}
